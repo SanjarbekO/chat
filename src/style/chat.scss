@@ -1,0 +1,36 @@
+.chat{
+  &__row{
+    margin: 0 auto;
+    background: #FFFFFF;
+    width: 600px;
+    height: 44.4vw;
+    &-top{
+      background: aqua;
+      padding: 10px;
+      text-align: center;
+      &__title{
+        margin: 0 auto;
+      }
+    }
+    &-message-title2, &-message-subtitle2{
+      text-align: right;
+    }
+    &-bottom{
+      margin: 0 auto;
+      width: 600px;
+      background:#FFFFFF;
+      &__input{
+        outline: none;
+        width: 500px;
+        border: 2px solid aqua;
+      }
+      &__btn{
+        width: 100px;
+        background:aqua;
+        border: none;
+        padding: 2px;
+        cursor: pointer;
+      }
+    }
+  }
+}
